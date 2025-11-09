@@ -18,3 +18,7 @@ closure();
 output:-
 I'm in the outer scope!
 Updated
+
+In this example
+The function inner() forms a closure by retaining access to outerVar, which is a variable in the scope of outer().
+Even though outer() has completed execution, inner() still has access to outerVar due to the closure.
